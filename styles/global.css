@@ -82,3 +82,24 @@ h2{
     padding-top: 20px;
 }
 
+#topLinks ul,
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topLinks li {
+    float: left;
+}
+
+#topLinks li a {
+    color: #333;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
