@@ -251,3 +251,29 @@ h2{
     transition: all 250ms ease-out;
     background-color: #f46036;
 }
+
+/* Scrolling */
+
+#scrollToTop {
+    display: none;
+    opacity: .5;
+    background-color: #f46036;
+    padding: 0 20px;
+    color: white;
+    width: 26px;
+    font-size: 40px;
+    line-height: 48px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+#scrollToTop:hover {
+    opacity: 1;
+    -webkit-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+    transition: all 250ms linear;
+    cursor: pointer;
+}
