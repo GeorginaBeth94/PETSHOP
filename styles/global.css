@@ -170,3 +170,45 @@ h2{
     background-color: #f46036;
     padding: 20px 40px;
 }
+
+/* Columns */
+
+.feature .leftColumn {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.feature .rightColumn {
+    margin-left: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+.feature .leftColumn .text,
+.feature .rightColumn .text {
+    padding: 80px 20px 20px 20px;
+    min-height: 260px;
+}
+
+.feature .leftColumn .text a,
+.feature .rightColumn .text a {
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    padding: 20px;
+    background-color: #4392f1;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.feature .leftColumn .text a:hover,
+.feature .rightColumn .text a:hover {
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    background-color: #f46036;
+    text-decoration: none;
+    padding: 20px 40px;
+}
