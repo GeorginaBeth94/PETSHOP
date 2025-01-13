@@ -103,3 +103,14 @@ h2{
     -ms-transition: all 250ms ease-out;
     transition: all 250ms ease-out;
 }
+
+#topLinks li a:hover {
+    color: #4392f1;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all s50ms ease-out;
+    transition: all 250ms ease-out;
+    text-decoration: underline;
+}
+
+/* Logo */
+
