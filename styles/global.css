@@ -307,3 +307,24 @@ h2{
     padding: 0 10px;
     border-radius: 30px;
 }
+
+#subscribe input[type=submit] {
+    border: 0;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #345995;
+    color: white;
+    border-radius: 30px;
+    -webkit-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    cursor: pointer;
+}
+
+#subscribe input[type=submit]:hover {
+    background-color: #f46036;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
