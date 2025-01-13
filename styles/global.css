@@ -363,3 +363,19 @@ h2{
     -ms-transition: all 250ms ease-out;
     transition: all 250ms ease-out;
 }
+
+/* Copyright */
+
+#copyright {
+    text-align: center;
+    background-color: #345995;
+    color: white;
+    height: 40px;
+    padding-top: 18px;
+    font-size: 16px;
+}
+
+#copyright .logo {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
