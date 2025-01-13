@@ -71,6 +71,41 @@ h2{
     padding: 15px;
 }
 
+#footer {
+    background-color: #f46036;
+    height: 80px;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 28px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#footer li {
+    float: left;
+}
+
+#footer li a {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    -webkit-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+#footer li a:hover {
+    color: #333;
+    -webkit-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
 /* Top Menu */
 
 #topMenu {
