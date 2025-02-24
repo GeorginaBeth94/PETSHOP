@@ -44,7 +44,7 @@ function Common() {
         });
     }
 }
-$(document).ready(fuction() {
+$(document).ready(function() {
     /*Instantiate new Common class*/
     app.common = new Common();
     /* Initialise the Promo bar */
