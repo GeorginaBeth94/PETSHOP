@@ -14,7 +14,7 @@ if (verticalHeight > heightFromTop) {
 }
     });
     /*scroll to Top Click Event Handler */
-    $("scrollToTop").click(function() {
+    $("#scrollToTop").click(function() {
         $("html, body").animate({ scrollTop: 0}, "slow");
     });
 }
